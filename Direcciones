@@ -1,0 +1,2 @@
+Saber la direccion Mac desde windows en cmd
+getmac /v /fo list
