@@ -1,4 +1,4 @@
-Que es una direccion IP 🖲️
+# 📌 QUE ES UNA DIRECCION IP 🖲️
 
 Una dirección IP (Internet Protocol) 🖨️
 
@@ -10,6 +10,25 @@ IP pública: La que ves en Internet.
 
 IP privada: La que usas dentro de tu red local (como tu Wi-Fi en casa).
 
+COMO SABER LA IP DESDE WINDOS
+
+ipconfig / ipconfig/all
+
+# 📌 COMO SABER LA DIRECCION MAC
+
+# 📌 Saber la direccion Mac desde windows en cmd
+getmac /v /fo list
+
+
+COMO ACCEDER / INICIAR SESSION EN TU ROUTER 
+
+1- En el cmd colocar ipconfig
+
+2- si esta conectado por wifi busca "Adaptador de LAN inalámbrica Wi-Fi"
+
+3- Ir a la opcion que dice  "Puerta de enlace predeterminada"
+
+4- y copiar la direccion que normalmente es    "192.168.1.1"  o   "192.168.0.1"
 
 Tipos de redes (LAN, WAN, MAN, PAN)
 
@@ -62,8 +81,5 @@ MAC Address (y su analogía con la cédula) Dispositivo
 IP Address (pública y privada, dinámica y estática) Te la da el router
 
 
-
-Saber la direccion Mac desde windows en cmd
-getmac /v /fo list
 
 
