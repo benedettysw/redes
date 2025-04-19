@@ -10,6 +10,8 @@ IP pública: La que ves en Internet.
 
 IP privada: La que usas dentro de tu red local (como tu Wi-Fi en casa).
 
+-----------------------------------------------------
+
 COMO SABER LA IP DESDE WINDOS
 
 ipconfig / ipconfig/all
@@ -18,6 +20,8 @@ ipconfig / ipconfig/all
 
 # 📌 Saber la direccion Mac desde windows en cmd
 getmac /v /fo list
+
+-------------------------------------------------------
 
 
 COMO ACCEDER / INICIAR SESSION EN TU ROUTER 
@@ -30,55 +34,19 @@ COMO ACCEDER / INICIAR SESSION EN TU ROUTER
 
 4- y copiar la direccion que normalmente es    "192.168.1.1"  o   "192.168.0.1"
 
-Tipos de redes (LAN, WAN, MAN, PAN)
+5- Ir a tu navegado y colocar la direccion y enter 
 
--------------------------------------------------------------------------
+-------------------------------------------------------
 
-🔹 LAN (Local Area Network) – Red de Área Local
-Es una red que conecta dispositivos en un área pequeña, como una casa, una oficina o un colegio.
+## 📡 Tipos de Redes
 
-Ejemplo: La red Wi-Fi de tu casa.
+- 🌐 **LAN** (Red local): conecta dispositivos en una casa u oficina.
+- 🏙️ **MAN** (Red metropolitana): cubre una ciudad.
+- 🛜 **WAN** (Red amplia): cubre países o continentes.
+- 🤝 **PAN** (Red personal): conexión entre tus dispositivos personales.
 
-Ventajas: Rápida, económica y fácil de mantener.
+---------------------------------------------------------------------------
 
-Generalmente usa cables Ethernet o Wi-Fi.
-
-------------------------------------------------------------------------------
-
- WAN (Wide Area Network) – Red de Área Amplia
-Conecta varias redes LAN que están muy alejadas entre sí, incluso en diferentes países.
-
-Ejemplo: Internet.
-
-Puede utilizar satélites, cables submarinos, líneas telefónicas, etc.
-
-Requiere infraestructura más compleja y proveedores de servicios.
-
--------------------------------------------------------------------------
-
-MAN (Metropolitan Area Network) – Red de Área Metropolitana
-Cubre una ciudad o zona metropolitana completa.
-
-Es más grande que una LAN pero más pequeña que una WAN.
-
-Ejemplo: La red de una universidad con varios campus o una red de transporte público conectada.
-
-Suele ser usada por gobiernos, empresas o universidades.
-
--------------------------------------------------------------------
-
-PAN (Personal Area Network) – Red de Área Personal
-Es una red muy pequeña que conecta dispositivos de una sola persona a corta distancia.
-
-Ejemplo: Un celular conectado por Bluetooth a unos audífonos o a un smartwatch.
-
-Tiene un alcance muy limitado (menos de 10 metros).
-
-------------------------------------------------------------------------
-
-MAC Address (y su analogía con la cédula) Dispositivo 
-
-IP Address (pública y privada, dinámica y estática) Te la da el router
 
 
 
