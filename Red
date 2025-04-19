@@ -1,0 +1,46 @@
+
+---
+
+## 🖥️ Tipos de Adaptadores y sus MAC
+
+### 🔹 1. Adaptador Wi-Fi (Real)
+
+- 📶 **Descripción**: Adaptador físico que se conecta a redes inalámbricas.
+- 📛 **Ejemplo de MAC**: `AC-50-DE-3E-6F-A7`
+- 🏷️ **Nombre típico**: `Realtek RTL8821` u otro fabricante.
+- ✅ **Usos comunes**:
+  - Conectarse a redes Wi-Fi.
+  - Configurar filtros de MAC en routers.
+  - Monitorear tráfico real de red.
+
+---
+
+### 🔸 2. Adaptador vEthernet (Virtual)
+
+- 🧪 **Descripción**: Adaptador creado por **Hyper-V**, una plataforma de máquinas virtuales en Windows.
+- 🛠️ **Ejemplo de MAC**: `00-15-5D-A4-A9-70`
+- ⚙️ **Nombre típico**: `Hyper-V Virtual Ethernet Adapter`
+- ⚠️ **Usos comunes**:
+  - Solo se usa si ejecutas máquinas virtuales (VMs).
+  - Comunicación interna de red entre tu PC y las VMs.
+  - No afecta tu conexión Wi-Fi directa.
+
+---
+
+## 🔍 ¿Cuál es la que debo usar?
+
+| Escenario                                 | Dirección MAC que necesitas                 |
+|------------------------------------------|---------------------------------------------|
+| Acceder a una red Wi-Fi                  | ✅ MAC del adaptador **Wi-Fi**               |
+| Conexión desde una VM (máquina virtual)  | ⚙️ MAC del adaptador **vEthernet**           |
+| Configurar IP estática manualmente       | 🧭 MAC del adaptador que esté en uso         |
+| Filtrar dispositivos en tu router        | 🔐 MAC del adaptador **Wi-Fi real**          |
+
+---
+
+## 🛠️ ¿Cómo encontrar estas direcciones?
+
+### Opción 1: Símbolo del sistema (CMD)
+
+```bash
+ipconfig /all
