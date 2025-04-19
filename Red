@@ -6,7 +6,7 @@
 ### 🔹 1. Adaptador Wi-Fi (Real)
 
 - 📶 **Descripción**: Adaptador físico que se conecta a redes inalámbricas.
-- 📛 **Ejemplo de MAC**: `AC-50-DE-3E-6F-A7`
+- 📛 **Ejemplo de MAC**: `AC-20-4f-2E-3F-A3`
 - 🏷️ **Nombre típico**: `Realtek RTL8821` u otro fabricante.
 - ✅ **Usos comunes**:
   - Conectarse a redes Wi-Fi.
